@@ -27,7 +27,7 @@ setuptools.setup(
     python_requires=">=3.6",
     install_requires=[
         "tifffile",
-        "pillow<10",
+        "pillow>=10.0.1",
         "numpy<2",
         "scipy<2"
     ],
